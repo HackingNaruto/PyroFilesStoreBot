@@ -6,13 +6,13 @@ import os
 class Config(object):
 	API_ID = 2817222
 	API_HASH = "aed9f2af23e0df07d7f34011e8a3c86f"
-	BOT_TOKEN = "5898725756:AAGgcn5moV1k0v_iZWsP4Zj7aZAEgMp16yo"
-	BOT_USERNAME = "FileStoreOfficialBot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001562317304"))
+	BOT_TOKEN = "6064443781:AAF2bSDg_XEperrhs5SUEQZDcrXf8V2uAIc"
+	BOT_USERNAME = "FilesStoreOfficialBot"
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001707804911"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1278414182"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://video:video@rishi.fzpls33.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "TamilLinksOfficial")
-	LOG_CHANNEL = -1001562317304
+	LOG_CHANNEL = -1001707804911
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
