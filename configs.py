@@ -8,7 +8,7 @@ class Config(object):
 	API_HASH = "aed9f2af23e0df07d7f34011e8a3c86f"
 	BOT_TOKEN = "6554076031:AAGhIAVOkAfLhwwvovRjVlv6_rcs9cAPkMg"
 	BOT_USERNAME = "FilesStoresOfficialBot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001707804911"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001869909600"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1994781564"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://video:video@rishi.fzpls33.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "TamilLinksOfficial")
